@@ -11,6 +11,23 @@
     border-bottom: 1px solid black;
 }
 
+.main div {
+    margin: 10px 0px;
+}
+
+.profile img {
+    width: 150px;
+}
+
+#education img {
+    width: 100px;
+}
+
+.profile {
+    /* display: flex;
+    align-items: center; */
+}
+
 .footer {
     /* bottom: 1%; */
     /* display: flex;
@@ -26,6 +43,7 @@
     margin: 0px 1px;
 }
 
-.main img {
-    width: 100px;
+.skill-row { /* maybe not? */
+    display: flex;
+    justify-content: space-evenly;
 }
