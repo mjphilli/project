@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .container1 {
     display: flex;
     /* width: 100%; */
@@ -46,4 +51,25 @@
 .skill-row { /* maybe not? */
     display: flex;
     justify-content: space-evenly;
+}
+
+.parallax {
+    min-height: 500px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.grass {
+    background-image: url("assets/grass_field.png");
+}
+
+.forest {
+    background-image: url("assets/forest.jpg");
+}
+
+.snow {
+    background-image: url("assets/snowy_plains.jpg");
 }
