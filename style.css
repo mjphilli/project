@@ -1,0 +1,31 @@
+.container1 {
+    display: flex;
+    /* width: 100%; */
+}
+
+.menu {
+    width: 250px;
+}
+
+.border-div {
+    border-bottom: 1px solid black;
+}
+
+.footer {
+    /* bottom: 1%; */
+    /* display: flex;
+    justify-content: center;
+    text-align: center; */
+    /* align-items: center; */
+    margin: 0 auto;
+    position: fixed;
+    bottom: 5px;
+}
+
+.footer > label {
+    margin: 0px 1px;
+}
+
+.main img {
+    width: 100px;
+}
